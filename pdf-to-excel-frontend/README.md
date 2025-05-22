@@ -1,12 +1,41 @@
-# React + Vite
+# PDF to Excel Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for a PDF to Excel file converter built using React and Material UI. It allows users to upload a PDF file, which is then converted to Excel format through the backend.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Upload PDF files via drag-and-drop or file picker
+- Shows progress and allows canceling an upload
+- PDF validation (file type and page limit)
+- Displays toast notifications for user feedback
+- Automatically downloads the converted `.xlsx` file
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Material UI (MUI)
+- Axios
+- react-hot-toast
+- pdfjs-dist (for PDF validation)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (>=14)
+- npm or yarn
+
+### Installation
+
+1. Navigate to the `frontend/` directory:
+   ```bash
+   cd frontend
+
+
+
+## Install dependencies:
+npm install
+
+
+## Start the development server:
+npm run dev
